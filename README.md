@@ -1,1 +1,3 @@
-# nssnvs
+Identifying the Functional Impact of Non-synonymous Single Nucleotude Variants
+-
+Previous tools for predicting the functional impact of non-synonymous single nucleotide variants utilized different training data and algorithms so that their prediction performances on different test datasets may vary markedly. Thus, we integrated four popular prediction tools (Mutation Assessor, PolyPhen-2, SIFT and FATHMM-W) into a single predictor to improve the prediction performance. We utilized AdaBoost, logistic regression, support vector machine and random forest, respectively, to combine the outputs of the four tools. Comparing with non-integrative tools and other integrative approaches such as CADD and Condel, our machine learning methods, especially AdaBoost, demonstrate a better performance.
